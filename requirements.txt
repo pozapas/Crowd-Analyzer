@@ -1,5 +1,6 @@
 numpy
 pandas
+markdown
 matplotlib
 scipy
 filterpy
@@ -10,4 +11,3 @@ pedpy
 groq
 python-dotenv
 PyQt6
-markdown

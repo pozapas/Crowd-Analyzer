@@ -1,8 +1,8 @@
 import sys
 import os
 import cv2
-import torch
 import random
+import torch
 import base64
 import pandas as pd
 import numpy as np
