@@ -41,7 +41,7 @@ Crowd Analyzer is a Python application for analyzing pedestrian and crowd mobili
 
 1. Run the application:
     ```sh
-    python [CrowdAnalyzer.py](http://_vscodecontentref_/0)
+    python CrowdAnalyzer.py
     ```
 
 2. Load a video file using the "Load Video" button.
