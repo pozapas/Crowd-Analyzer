@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+scipy
+filterpy
+torch
+opencv-python
+ultralytics
+pedpy
+groq
+python-dotenv
+PyQt6
+markdown
