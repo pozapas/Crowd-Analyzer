@@ -10,25 +10,35 @@ Crowd Analyzer is a Python application for analyzing pedestrian and crowd mobili
 - Interactive point selection for homography transformation
 - Graphical user interface (GUI) using PyQt6
 - Visualization of trajectories, density, and speed plots
+- Real-time plot interpretation using LlamaVision AI
 
 ## Demo
 
 ### Videos
+https://github.com/pozapas/crowd-analyzer/assets/videos/Demo.mp4
+
+https://github.com/pozapas/crowd-analyzer/assets/videos/Sample_1080.mp4
+
+You can view the demo video and sample video above or download them directly:
 - [Demo Video](video/Demo.mp4)
 - [Sample Video (1080p)](video/Sample_1080.mp4)
 
 ### Screenshots
-![Main GUI Interface](img/GUI.png)
+
+
 *Main application interface*
+![Main GUI Interface](img/GUI.png)
 
-![Settings Window](img/GUI_setting.png)
 *Settings configuration panel*
+![Settings Window](img/GUI_setting.png)
 
-![Processing View](img/GUI-2.png)
 *Video processing and tracking visualization*
+![Processing View](img/GUI-2.png)
 
+
+*Density, Speed and trajectory analysis plots using Pedpy and LllamaVision*
 ![Analysis Results](img/Plot_window.png)
-*Density and trajectory analysis plots*
+
 
 
 ## Installation
