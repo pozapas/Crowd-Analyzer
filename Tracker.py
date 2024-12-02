@@ -53,7 +53,7 @@ class Track:
             self.state = TrackState.LOST
 
 class CrowdDensityEstimation:
-    def __init__(self, model_path='yolo11x.pt', conf_threshold=0.15, iou_threshold=0.45):
+    def __init__(self, model_path='yolo11n.pt', conf_threshold=0.15, iou_threshold=0.45):
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         print(f"Using device: {self.device}")
         self.model = YOLO(model_path)
@@ -388,7 +388,7 @@ def select_points_and_distances(frame):
     return None, None
 
 def main():
-    cap = cv2.VideoCapture(r"C:\Users\graduate\OneDrive\Pedestrian movies\3.mp4")
+    cap = cv2.VideoCapture("your video.mp4")
 
     if not cap.isOpened():
         print("Error opening video stream or file")
