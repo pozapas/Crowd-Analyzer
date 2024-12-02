@@ -15,13 +15,11 @@ Crowd Analyzer is a Python application for analyzing pedestrian and crowd mobili
 ## Demo
 
 ### Videos
-https://github.com/pozapas/crowd-analyzer/assets/videos/Demo.mp4
-
-https://github.com/pozapas/crowd-analyzer/assets/videos/Sample_1080.mp4
-
 You can view the demo video and sample video above or download them directly:
+https://usu-my.sharepoint.com/:v:/g/personal/a02347157_aggies_usu_edu/EfwytRhTzkhOtazYZHFWZrwBtSXkyTdRTiSAq-X0Zc77xA?e=LiOVWD
 - [Demo Video](video/Demo.mp4)
 - [Sample Video (1080p)](video/Sample_1080.mp4)
+
 
 ### Screenshots
 
