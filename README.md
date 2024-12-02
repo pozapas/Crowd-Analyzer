@@ -16,6 +16,12 @@ Crowd Analyzer is a Python application for analyzing pedestrian and crowd mobili
 
 ### Videos
 You can view the demo video and sample video above or download them directly:
+<figure class="video_container">
+ <video controls="true" allowfullscreen="true">
+ <source src="video/Demo.mp4" type="video/mp4">
+ </video>
+</figure>
+
 - [Demo Video](video/Demo.mp4)
 - [Sample Video (1080p)](video/Sample_1080.mp4)
 
