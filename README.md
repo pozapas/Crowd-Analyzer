@@ -11,6 +11,26 @@ Crowd Analyzer is a Python application for analyzing pedestrian and crowd mobili
 - Graphical user interface (GUI) using PyQt6
 - Visualization of trajectories, density, and speed plots
 
+## Demo
+
+### Videos
+- [Demo Video](video/Demo.mp4)
+- [Sample Video (1080p)](video/Sample_1080.mp4)
+
+### Screenshots
+![Main GUI Interface](img/GUI.png)
+*Main application interface*
+
+![Settings Window](img/GUI_setting.png)
+*Settings configuration panel*
+
+![Processing View](img/GUI-2.png)
+*Video processing and tracking visualization*
+
+![Analysis Results](img/Plot_window.png)
+*Density and trajectory analysis plots*
+
+
 ## Installation
 
 1. Clone the repository:
@@ -66,3 +86,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License.
+
