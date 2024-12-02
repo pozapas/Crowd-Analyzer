@@ -1,6 +1,5 @@
 # Crowd Analyzer
-
-Crowd Analyzer is a Python application for analyzing pedestrian and crowd mobility patterns using computer vision and machine learning techniques. It leverages YOLO for object detection, Kalman filters for tracking, and various density and speed estimation methods.
+Crowd Analyzer is a Python application designed to analyze pedestrian and crowd mobility patterns using computer vision and machine learning techniques. It incorporates YOLO for object detection, Kalman filters for tracking, and various methods for density and speed estimation. The application also utilizes [PedPy](https://github.com/PedestrianDynamics/pedpy) to process pedestrian trajectories and LlamaVision 90B via the Groq API for real-time interpretation of PedPy output plots.
 
 ## Features
 
@@ -9,21 +8,16 @@ Crowd Analyzer is a Python application for analyzing pedestrian and crowd mobili
 - Density and speed estimation using Voronoi and classic methods
 - Interactive point selection for homography transformation
 - Graphical user interface (GUI) using PyQt6
-- Visualization of trajectories, density, and speed plots
+- Visualization of trajectories, density, and speed plots using PedPy
 - Real-time plot interpretation using LlamaVision AI
 
 ## Demo
 
 ### Videos
-You can view the demo video and sample video above or download them directly:
-<figure class="video_container">
- <video controls="true" allowfullscreen="true">
- <source src="video/Demo.mp4" type="video/mp4">
- </video>
-</figure>
 
-- [Demo Video](video/Demo.mp4)
-- [Sample Video (1080p)](video/Sample_1080.mp4)
+https://github.com/user-attachments/assets/f16b6d99-86cd-4219-965c-ade446fe8611
+
+https://github.com/user-attachments/assets/72dcb9f9-ba1b-4049-8e87-342af9215d5c
 
 
 ### Screenshots
