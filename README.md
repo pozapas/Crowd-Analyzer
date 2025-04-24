@@ -1,12 +1,30 @@
 # Crowd Analyzer
+![Crowd Analyzer Logo](img/logo2.png)
+
 Crowd Analyzer is a Python application designed to analyze pedestrian and crowd mobility patterns using computer vision and machine learning techniques. It incorporates YOLO for object detection, Kalman filters for tracking, and various methods for density and speed estimation. 
 
 The application also utilizes [PedPy](https://github.com/PedestrianDynamics/pedpy) to process pedestrian trajectories and [LlamaVision 90B](https://huggingface.co/meta-llama/Llama-3.2-90B-Vision) via the [Groq API](https://console.groq.com/keys) for real-time interpretation of PedPy output plots.
+
+## 🎉 What's New (April 2025)
+
+We've released a major update with enhanced pedestrian and vehicle tracking capabilities:
+
+- **Advanced Intersection Analysis**: Define custom zones (crosswalks, intersections, sidewalks) for targeted analytics
+- **Enhanced Visualization**: Improved tracking visualization with trajectory mapping and speed indicators
+- **Vehicle-Pedestrian Interaction**: Detection and analysis of interactions between pedestrians and vehicles
+- **Coordinate Transformation**: Advanced homography-based coordinate system calibration
+- **Expanded Export Features**: Save separate trajectory data for pedestrians and vehicles
+- **Custom Zone Analysis**: Monitor and analyze movement within user-defined zones
+
+This functionality is available in the new `tracker_pedv.py` module. See the updated screenshots below for examples of the new visualization capabilities.
 
 ## Features
 
 - Object detection using YOLO
 - Kalman filter-based tracking
+- Advanced pedestrian and vehicle tracking with trajectory analysis (NEW)
+- Zone-based movement analysis for intersections and crosswalks (NEW)
+- Vehicle-pedestrian interaction detection and analysis (NEW)
 - Density and speed estimation using Voronoi and classic methods
 - Interactive point selection for homography transformation
 - Graphical user interface (GUI) using PyQt6
@@ -25,6 +43,12 @@ https://github.com/user-attachments/assets/72dcb9f9-ba1b-4049-8e87-342af9215d5c
 ### Screenshots
 
 
+*Enhanced pedestrian tracking visualization with PedV (NEW)*
+![PedV Tracking](img/pedvtracking.png)
+
+*Advanced analysis interface with zone definition (NEW)*
+![Analysis GUI](img/analysisGUI.png)
+
 *Main application interface*
 ![Main GUI Interface](img/GUI.png)
 
@@ -33,7 +57,6 @@ https://github.com/user-attachments/assets/72dcb9f9-ba1b-4049-8e87-342af9215d5c
 
 *Video processing and tracking visualization*
 ![Processing View](img/GUI-2.png)
-
 
 *Density, Speed and trajectory analysis plots using Pedpy and LllamaVision*
 ![Analysis Results](img/Plot_window.png)
@@ -84,7 +107,8 @@ https://github.com/user-attachments/assets/72dcb9f9-ba1b-4049-8e87-342af9215d5c
 ## File Structure
 
 - `CrowdAnalyzer.py`: Main application file containing the GUI and core functionality.
-- `Tracker.py`: Contains the tracking and density estimation logic.
+- `tracker_ped.py`: Contains the basic tracking and density estimation logic.
+- `tracker_pedv.py`: NEW - Enhanced tracker with intersection analysis, zone definition, and vehicle-pedestrian interaction detection.
 - `requirements.txt`: Lists the required Python packages.
 - `.env`: Environment variables file for storing sensitive information like API keys.
 
