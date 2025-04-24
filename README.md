@@ -1,5 +1,8 @@
 # Crowd Analyzer
-![Crowd Analyzer Logo](img/logo2.png)
+
+<p align="center">
+    <img src="img/logo2.png" alt="Crowd Analyzer Logo" width="300">
+</p>
 
 Crowd Analyzer is a Python application designed to analyze pedestrian and crowd mobility patterns using computer vision and machine learning techniques. It incorporates YOLO for object detection, Kalman filters for tracking, and various methods for density and speed estimation. 
 
@@ -17,6 +20,13 @@ We've released a major update with enhanced pedestrian and vehicle tracking capa
 - **Custom Zone Analysis**: Monitor and analyze movement within user-defined zones
 
 This functionality is available in the new `tracker_pedv.py` module. See the updated screenshots below for examples of the new visualization capabilities.
+
+
+*Enhanced pedestrian tracking visualization with PedV (NEW)*
+![PedV Tracking](img/pedvtracking.png)
+
+*Advanced analysis interface with zone definition (NEW)*
+![Analysis GUI](img/analysisGUI.png)
 
 ## Features
 
@@ -41,13 +51,6 @@ https://github.com/user-attachments/assets/72dcb9f9-ba1b-4049-8e87-342af9215d5c
 
 
 ### Screenshots
-
-
-*Enhanced pedestrian tracking visualization with PedV (NEW)*
-![PedV Tracking](img/pedvtracking.png)
-
-*Advanced analysis interface with zone definition (NEW)*
-![Analysis GUI](img/analysisGUI.png)
 
 *Main application interface*
 ![Main GUI Interface](img/GUI.png)
