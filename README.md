@@ -30,7 +30,7 @@ This functionality is available in the new `tracker_pedv.py` module. See the upd
 
 ## Features
 
-- Object detection using YOLO
+- Object detection using YOLOxx
 - Kalman filter-based tracking
 - Advanced pedestrian and vehicle tracking with trajectory analysis (NEW)
 - Zone-based movement analysis for intersections and crosswalks (NEW)
